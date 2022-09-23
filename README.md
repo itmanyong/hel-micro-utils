@@ -12,21 +12,20 @@ pnpm add hel-micro
 
 ```js
 // 安装主包
-pnpm add hel-micro-lodash
+pnpm add hel-micro-utils
 // 在使用之前加载主包
 import { preFetchLib } from 'hel-micro'
-await preFetchLib('hel-micro-lodash')
+await preFetchLib('hel-micro-utils')
 // 后续使用
-import helLodash from 'hel-micro-lodash';
-helLodash.apiName()
+import helUtils from 'hel-micro-utils';
+helUtils.apiName()
 ```
 
 3.懒加载主包
 ```js
 // 后续再次加载会直接复用
-const helLodashLib = await preFetchLib("hel-micro-lodash");
-helLodashLib.apiName();
+const helUtilsLib = await preFetchLib("hel-micro-utils");
+helUtilsLib.apiName();
 ```
 ## 其他
-  1.将lodash通过hel-micro的方式进行提供，包含所有lodash导出
-  2.版本号与lodash保持一致，尾号为包更新版本号
+  1.个人常用、收集的业务工具函数
