@@ -29,7 +29,6 @@ specifiers:
   jest-watch-typeahead: 0.4.2
   jsdom: ^20.0.0
   lint-staged: ^10.5.3
-  lodash: ^4.17.21
   pnp-webpack-plugin: 1.6.4
   react-dev-utils: ^11.0.4
   replace-absolute-path: ^1.0.0
@@ -52,7 +51,6 @@ dependencies:
   '@types/lodash': 4.14.184
   hel-lib-proxy: 3.8.3
   hel-micro: 3.9.0
-  lodash: 4.17.21
 
 devDependencies:
   '@babel/core': 7.9.0
@@ -6536,6 +6534,7 @@ packages:
 
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: true
 
   /log-symbols/4.1.0:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==}

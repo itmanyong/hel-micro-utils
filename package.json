@@ -5,24 +5,20 @@
   "module": "hel_proxy_es/entry.js",
   "unpkg": "hel_dist/entry.js",
   "types": "lib/entrance/libTypes.ts",
-  "version": "4.17.21.01",
+  "version": "0.0.1",
   "author": {
     "name": "itmanyong"
   },
   "keywords": [
     "utils",
-    "lodash",
     "hel-micro",
     "hel-utils",
-    "hel-lodash",
-    "hel-micro-lodash",
     "hel-micro-utils"
   ],
   "dependencies": {
     "@types/lodash": "^4.14.182",
     "hel-lib-proxy": "^3.8.3",
-    "hel-micro": "^3.8.4",
-    "lodash": "^4.17.21"
+    "hel-micro": "^3.8.4"
   },
   "peerDependencies": {
     "hel-lib-proxy": "^3.8.3",
